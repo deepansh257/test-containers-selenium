@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.io.File;
 import java.io.IOException;
 
-public class SeleniumTests {
+public class SeleniumTests extends Base{
 
     @Test
     public void openUrl() throws IOException {
